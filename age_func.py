@@ -1,6 +1,9 @@
 def age_calculation(age):
     age = age
     if age > 18:
-        print("Adult")
+        is_adult = True
+        print('adult')
     else:
-        print("Child!")
+        is_adult = False
+        print('child')
+    
