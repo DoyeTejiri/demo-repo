@@ -1,6 +1,6 @@
-def age_calculation(age):
+def age_status(age):
     age = age
     if age > 18:
-        print("Adult")
+        return True
     else:
-        print("Child!")
+        return False
